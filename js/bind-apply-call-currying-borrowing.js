@@ -57,4 +57,5 @@ console.log('Funcion borrowing:');
 console.log(person.getFullName.apply(person2));
 
 // this will result in an error, because it won't find getFullName()
+logToConsole('this will result in an error, because it wont find getFullName()');
 logToConsole('frontend', 'developer');
