@@ -55,7 +55,8 @@ logPersonCurrying('is boring');
 // Just setting the 'this' keyword of a function using apply() or call()
 console.log('Funcion borrowing:');
 console.log(person.getFullName.apply(person2));
+console.log('---------');
 
 // this will result in an error, because it won't find getFullName()
-logToConsole('this will result in an error, because it wont find getFullName()');
+console.log('this will result in an error, because it wont find getFullName()');
 logToConsole('frontend', 'developer');
